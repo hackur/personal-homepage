@@ -1,4 +1,4 @@
-<p align="center"><img src="https://jeremysarda-site.now.sh/_nuxt/4b1a06448cc6fc123df2206e7f11029d.svg" width="400"></p>
+<p align="center"><img src="https://jeremysarda-site.now.sh/_nuxt/4b1a06448cc6fc123df2206e7f11029d.svg" width="250"></p>
 
 ![LaravelTwillPersonalHomepage](https://github.com/hackur/personal-homepage/workflows/LaravelTwillPersonalHomepage/badge.svg?event=status)
 
