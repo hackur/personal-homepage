@@ -8,9 +8,24 @@
 - [ ] Add Vuetify?
 
 
+## Ideas List
+
+- [ ] How to
+
+
 ## Resource Todo List
 
 - [ ] Pages (Integrate Tags Relationship?)
 - [ ] Widgets (Static / Dynamic Reusable Content Blocks)
 - [ ] Menus (sitemap generator?)
 - [ ] Themes (auto pull dropdown to choose layout, colors, etc?)
+
+
+## Unit Tests
+
+- [ ] Creating a page
+
+
+## Feature Tests
+
+- [ ] Does a page slug have a publicly accessible route after it's created
