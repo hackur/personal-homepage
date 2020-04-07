@@ -10,18 +10,76 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-
-
-body * {
+body {
     color:rgba(0,0,125,1);
     // font-family: 'Abril Fatface', cursive;
     // font-family: 'Noto Serif', serif;
     // font-family: 'Markazi Text', serif;
     font-family: 'Taviraj', serif;
 
-    background: linear-gradient(#cbc7c0, #fbf7f2);
-    background: linear-gradient(#fbf7f2, #cbc7c0);
+    background: linear-gradient($moneyBackgroundTan, lighten($moneyBackgroundTan, 5%));
+    // background: linear-gradient(lighten(#E8E9C9, 25%), #E8E9C9);
 
+}
+
+.money-caps-font-dark {
+    color: $moneyPrimaryGray;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px $moneyBackgroundTan, 4px 4px 1px lighten($moneyPrimaryGray, 15%);
+    text-align: center;
+    word-spacing:1rem;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+
+    // font-family: 'Noto Serif', serif;
+    // font-family: 'Markazi Text', serif;
+    // font-family: 'Taviraj', serif;
+
+
+}
+
+.money-caps-font-tan {
+    color: $moneyBackgroundTan;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px $moneyBackgroundTan, 4px 4px 1px lighten($moneyPrimaryGray, 15%);
+    text-align: center;
+    word-spacing:1rem;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+
+    // font-family: 'Noto Serif', serif;
+    // font-family: 'Markazi Text', serif;
+    // font-family: 'Taviraj', serif;
+
+
+}
+
+.money-thin-border {
+    border: 1px solid $moneyPrimaryGray;
+    margin: 15px;
+    padding: 2px;
+    height: calc(100vh - 30px);
+}
+
+.money-thick-border-end {
+    border: 1px solid rgba($moneyLightGreen, 0.25);
+    margin: 0;
+    padding: 0;
+    background-color: $moneyBackgroundTan;
+    height: calc(100vh - 60px);
+}
+
+.money-thick-border-start {
+    border: 1px solid $moneyPrimaryGray;
+
+    background:transparent url(/assets/illustrations/money-pattern-1.png) repeat;
+
+    margin: 0;
+    padding: 50px;
 }
 
 .background-gradient {

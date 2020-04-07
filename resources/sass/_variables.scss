@@ -17,3 +17,26 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+$moneyPrimaryGray: #3e3e3c;
+$moneyDarkGreen: #228d57;
+$moneyLightGreen: #85bb65;
+$moneyBackgroundTan: #E8E9C9;
+
+$gray_1: #a0a0a0;
+
+$color_1: #3d3a3b;
+$color_2: #aa9076;
+$color_3: #baa591;
+$color_4: #997f67;
+$color_5: #271c19;
+$color_6: #3b2e2b;
+$color_7: #453633;
+
+$color_1: desaturate(#3d3a3b, 100%);
+$color_2: lighten($moneyPrimaryGray, 5%);//desaturate(#aa9076, 100%);
+$color_3: $moneyBackgroundTan;//desaturate(#baa591, 100%);
+$color_4: $moneyPrimaryGray;//desaturate(#997f67, 100%);
+$color_5: desaturate(#271c19, 100%);
+$color_6: desaturate(#3b2e2b, 100%);
+$color_7: desaturate(#453633, 100%);
