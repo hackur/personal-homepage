@@ -1,4 +1,11 @@
 const mix = require('laravel-mix');
+require('laravel-mix-merge-manifest');
+
+/*
+ |--------------------------------------------------------------------------
+ | Environment Variable Support
+ |--------------------------------------------------------------------------
+ */
 
 /*
  |--------------------------------------------------------------------------
@@ -12,4 +19,8 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+    .browserSync({
+        proxy: process.env.APP_URL
+    })
+    .mergeManifest();

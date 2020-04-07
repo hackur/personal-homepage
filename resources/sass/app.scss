@@ -1,1 +1,35 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+body * {
+    color:rgba(0,0,125,1);
+    // font-family: 'Abril Fatface', cursive;
+    // font-family: 'Noto Serif', serif;
+    // font-family: 'Markazi Text', serif;
+    font-family: 'Taviraj', serif;
+
+    background: linear-gradient(#cbc7c0, #fbf7f2);
+    background: linear-gradient(#fbf7f2, #cbc7c0);
+
+}
+
+.background-gradient {
+    // background: radial-gradient(circle, rgba(73,72,68,1) 21%, rgba(255,255,255,1) 75%);
+    background: radial-gradient(circle, rgba(73,72,68,1) 21%, transparent 75%);
+}
+
+.hidden {
+    visibility: none;
+    display:none;
+}
